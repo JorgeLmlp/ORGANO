@@ -1,16 +1,13 @@
-import Banner from './componentes/banner';
-import InputText from './componentes/InputText';
-
+import FormText from "./componentes/form";
+import Banner from "./componentes/banner";
 function App() {
   return (
     <div className="App">
       <Banner />
-      <InputText label = "Nome" placeholder = "Digite seu nome"/>
-      <InputText label = "Cargo" placeholder = "Digite seu cargo"/>
-      <InputText label = "Imagem" placeholder = "Informe o endereço da imagem"/>
-      <InputText label = "Time"/>
+      <FormText />
     </div>
-  );
+  );  
+
 }
 
 export default App;
